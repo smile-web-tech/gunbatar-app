@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">"Günbatar Şapagy" okuw merkezi</string>
+    <string name="title_home_tm">Esasy</string>
+    <string name="title_settings_tm">Sazlamalar</string>
+    <string name="appbar_gunbatar">Günbatar Şapagy</string>
+    <string name="appbar_settings">Sazlamalar</string>
+    <string name="admin_panel_tm">Şahsy otag</string>
+    <string name="gallery_tm">Gallereýa</string>
+    <string name="advantages_tm">Mümkinçilikler</string>
+    <string name="questions_tm">Soraglar</string>
+    <string name="news_tm">Täzelikler</string>
+    <string name="guests_tm">Myhmanlar</string>
+    <string name="chareler_tm">Dürli çäreler</string>
+    <string name="app_version_tm">Beta v1.0</string>
+    <string name="info">Info</string>
+    <string name="title_panel_tm">Şahsy otag</string>
+    <string name="noInternet_tm">Internet baglandysy ýok!</string>
+    <string name="tryAgain_tm">Täzeden synanyş</string>
+    <string name="title_gallery_1">Dürli çäreler</string>
+    <string name="registration">Onlaýn ýazylyşmak</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="infoAppbar">Info</string>
+    <string name="authorText">By: K-team\'s -SMILE</string>
+    <string name="infoText">Bu programma okuwçylary we mugallymlary güýçlendirýän, bilim dolandyryş platformasy bolup, okuwçylaryň we mugallymlaryň işini ýeňilleşdirýär. Okuwçylar test netijelerine aňsatlyk bilen ýetip biler, jikme-jik wagtlary görmek, surat galereýalaryna göz gezdirip, geljekki çäreler barada habardar bolup bilerler. Mugallymlar bolsa, okuwçylaryň maglumatlaryny üýtgetmek, täzelemek ýa-da pozmak ýaly işleri amala aşyryp bilýärler. Programma, şeýle hem, kurslara we çäreler onlaýn ýazylmak mümkinçiligini üpjün edýär, okuwçylar we mugallymlar üçin üznüksiz tejribäni üpjün edýär. Bu giňişleýin gural bilen habarlaşmagy, guramagy we gatnaşygy ýeňilleşdirip, bilim almak ugrundaky syýahatyňyzy has-da amatly we gyzykly ediň!</string>
+</resources>
