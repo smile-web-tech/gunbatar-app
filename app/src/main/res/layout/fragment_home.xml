@@ -109,7 +109,7 @@
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
                                 android:id="@+id/panel_image"
-                                android:src="@drawable/teachers"
+                                android:src="@drawable/dashboard"
                                 android:layout_marginTop="20dp"
                                 android:layout_centerHorizontal="true" />
 
@@ -150,19 +150,13 @@
                                 android:layout_height="wrap_content"
                                 android:id="@+id/charelerText"
                                 android:text="@string/chareler_tm"
-                                android:textSize="20sp"
+                                android:textSize="20dp"
 
                                 android:fontFamily="@font/product_sans_regular"
                                 android:layout_marginTop="10dp"
                                 android:layout_centerHorizontal="true"
                                 android:layout_below="@+id/charelerImage" />
 
-                            <ImageView
-                                android:layout_alignParentEnd="true"
-                                android:layout_width="50dp"
-                                android:layout_height="45dp"
-                                android:src="@drawable/work_in_progress"
-                                />
                             <ImageView
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
@@ -194,7 +188,7 @@
                                 android:layout_height="wrap_content"
                                 android:id="@+id/questionText2"
                                 android:text="@string/news_tm"
-                                android:textSize="20sp"
+                                android:textSize="20dp"
 
                                 android:fontFamily="@font/product_sans_regular"
                                 android:layout_marginTop="10dp"
@@ -236,7 +230,7 @@
                         android:layout_margin="10dp"
                         android:layout_weight="1"
                         app:cardElevation="20dp"
-                        android:id="@+id/question_cardview"
+                        android:id="@+id/gallery_cardview"
                         app:cardCornerRadius="20dp">
 
                         <RelativeLayout
@@ -247,24 +241,18 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/questionText"
-                                android:text="@string/questions_tm"
-                                android:textSize="20sp"
+                                android:text="@string/gallery_tm"
+                                android:textSize="20dp"
 
                                 android:fontFamily="@font/product_sans_regular"
                                 android:layout_marginTop="10dp"
                                 android:layout_centerHorizontal="true"
                                 android:layout_below="@+id/questionImage" />
                             <ImageView
-                                android:layout_alignParentEnd="true"
-                                android:layout_width="50dp"
-                                android:layout_height="45dp"
-                                android:src="@drawable/work_in_progress"
-                                />
-                            <ImageView
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
                                 android:id="@+id/questionImage"
-                                android:src="@drawable/questions"
+                                android:src="@drawable/gallery"
                                 android:layout_marginTop="15dp"
                                 android:layout_centerHorizontal="true" />
 
@@ -276,7 +264,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="10dp"
                         android:layout_weight="1"
-                        android:id="@+id/advantages_cardview"
+                        android:id="@+id/teachers_cardview"
                         app:cardElevation="20dp"
                         app:cardCornerRadius="20dp">
 
@@ -288,24 +276,17 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/grocName3"
-                                android:text="@string/advantages_tm"
-                                android:textSize="20sp"
-
+                                android:text="@string/teachers_tm"
+                                android:textSize="20dp"
                                 android:fontFamily="@font/product_sans_regular"
                                 android:layout_marginTop="10dp"
                                 android:layout_centerHorizontal="true"
                                 android:layout_below="@+id/advantagesImage" />
                             <ImageView
-                                android:layout_alignParentEnd="true"
-                                android:layout_width="50dp"
-                                android:layout_height="45dp"
-                                android:src="@drawable/work_in_progress"
-                                />
-                            <ImageView
                                 android:layout_width="50dp"
                                 android:layout_height="60dp"
                                 android:id="@+id/advantagesImage"
-                                android:src="@drawable/advantage"
+                                android:src="@drawable/teachers"
                                 android:layout_marginTop="15dp"
                                 android:layout_centerHorizontal="true" />
 
@@ -345,7 +326,7 @@
                                 android:layout_height="wrap_content"
                                 android:id="@+id/registrationText"
                                 android:text="@string/registration"
-                                android:textSize="20sp"
+                                android:textSize="20dp"
 
                                 android:fontFamily="@font/product_sans_regular"
                                 android:layout_marginTop="10dp"

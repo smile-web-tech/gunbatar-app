@@ -15,7 +15,9 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.gunbatarshapagy.west_project.databinding.FragmentHomeBinding;
 
-import com.gunbatarshapagy.west_project.ui.panel.gallery1_view;
+import com.gunbatarshapagy.west_project.ui.panel.gallery_view_1;
+import com.gunbatarshapagy.west_project.ui.panel.gallery_view_2;
+import com.gunbatarshapagy.west_project.ui.panel.teachers_view;
 import com.gunbatarshapagy.west_project.ui.panel.panel_view;
 
 public class HomeFragment extends Fragment {
@@ -45,23 +47,23 @@ public class HomeFragment extends Fragment {
         chareler_cardview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getContext(), "Ýakyn wagtda..", Toast.LENGTH_SHORT).show();
+                fragmentNavigate3();
             }
         });
 
-        advantage_cardview = binding.advantagesCardview;
+        advantage_cardview = binding.teachersCardview;
         advantage_cardview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getContext(), "Ýakyn wagtda..", Toast.LENGTH_SHORT).show();
+                fragmentNavigate2();
             }
         });
 
-        question_cardview = binding.questionCardview;
+        question_cardview = binding.galleryCardview;
         question_cardview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getContext(), "Ýakyn wagtda..", Toast.LENGTH_SHORT).show();
+                fragmentNavigate4();
             }
         });
         register_cardview = binding.registerCardview;
@@ -88,7 +90,15 @@ public class HomeFragment extends Fragment {
         startActivity(intent);
     }
     private void fragmentNavigate2(){
-        Intent intent2 = new Intent(getContext(), gallery1_view.class);
+        Intent intent2 = new Intent(getContext(), teachers_view.class);
+        startActivity(intent2);
+    }
+    private void fragmentNavigate3(){
+        Intent intent2 = new Intent(getContext(), gallery_view_1.class);
+        startActivity(intent2);
+    }
+    private void fragmentNavigate4(){
+        Intent intent2 = new Intent(getContext(), gallery_view_2.class);
         startActivity(intent2);
     }
 

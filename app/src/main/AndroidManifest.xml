@@ -38,10 +38,24 @@
             />
         <activity
             android:screenOrientation="locked"
-        android:name=".ui.panel.gallery1_view"
+        android:name=".ui.panel.teachers_view"
         android:exported="false"
         android:parentActivityName=".MainActivity"
         />
+
+        <activity
+            android:screenOrientation="locked"
+            android:name=".ui.panel.gallery_view_1"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            />
+
+        <activity
+            android:screenOrientation="locked"
+            android:name=".ui.panel.gallery_view_2"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            />
         <activity
             android:screenOrientation="locked"
             android:name=".ui.info_activity"
