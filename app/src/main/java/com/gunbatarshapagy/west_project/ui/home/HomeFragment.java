@@ -35,52 +35,22 @@ public class HomeFragment extends Fragment {
         View view = binding.getRoot();
 
         row1 = binding.row1; // Use binding to find the view
-        row1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                fragmentNavigate();
-            }
-        });
+        row1.setOnClickListener(v -> fragmentNavigate());
 
 
         chareler_cardview = binding.charelerCardview;
-        chareler_cardview.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                fragmentNavigate3();
-            }
-        });
+        chareler_cardview.setOnClickListener(v -> fragmentNavigate3());
 
         advantage_cardview = binding.teachersCardview;
-        advantage_cardview.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                fragmentNavigate2();
-            }
-        });
+        advantage_cardview.setOnClickListener(v -> fragmentNavigate2());
 
         question_cardview = binding.galleryCardview;
-        question_cardview.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                fragmentNavigate4();
-            }
-        });
+        question_cardview.setOnClickListener(v -> fragmentNavigate4());
         register_cardview = binding.registerCardview;
-        register_cardview.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getContext(), "Ýakyn wagtda..", Toast.LENGTH_SHORT).show();
-            }
-        });
+        register_cardview.setOnClickListener(v -> Toast.makeText(getContext(), "Ýakyn wagtda..", Toast.LENGTH_SHORT).show());
 
         news_cardview = binding.newsCardview;
-        news_cardview.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getContext(), "Ýakyn wagtda..", Toast.LENGTH_SHORT).show();
-            }
-        });
+        news_cardview.setOnClickListener(v -> Toast.makeText(getContext(), "Ýakyn wagtda..", Toast.LENGTH_SHORT).show());
 
         return view;
     }
